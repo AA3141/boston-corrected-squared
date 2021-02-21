@@ -1,5 +1,5 @@
 # boston-corrected-squared
-The corrected Boston Dataset, but with (crudely) accurate longitudes and latitudes so the points match up on Folium / geopandas.
+The corrected Boston Dataset, but with (crudely) accurate longitudes and latitudes so the points match up on Folium / geopandas. This I call the Boston dataset, *corrected<sup>2</sup>* (corrected squared).
 
 I found this problem when I was trying to map each tract on the corrected Boston Dataset (reference: http://lib.stat.cmu.edu/datasets/boston_corrected.txt) as part of AI Hack 2021. The points did not match up at all with the geography of Boston, and also the names of the towns attached at each point.
 
